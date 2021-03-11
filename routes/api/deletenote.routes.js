@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const getCurrentUser = require('../../helper/getCurrentUser');
+const getCurrentUser = require('../../helpers/getCurrentUser');
 
 router.post('/', (req, res) => {
     const { name, id } = req.body;

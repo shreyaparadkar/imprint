@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const authenticateToken = require('../../authentication/authenticateToken');
-const getCurrentUser = require("../../helper/getCurrentUser");
+const getCurrentUser = require("../../helpers/getCurrentUser");
 
 router.get('/', authenticateToken, (req, res) => {
     var date = new Date()

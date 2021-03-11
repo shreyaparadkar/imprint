@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const authenticateToken = require('../../authentication/authenticateToken');
-const getCurrentUser = require('../../helper/getCurrentUser');
+const getCurrentUser = require('../../helpers/getCurrentUser');
 
 router.post('/',authenticateToken,(req,res)=>{
     const { name, date, notes, follow_up, follow_up_status, follow_up_after } = req.body;
