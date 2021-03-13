@@ -63,7 +63,6 @@ const AddNotes = () => {
 
     axios.post('/api/addnotes', info,{headers})
         .then(response => {
-          console.log(response.data);
           setErr(false);
           setOpenSnackbar(true);
           setSnackbarText(response.data);
@@ -73,7 +72,6 @@ const AddNotes = () => {
           setErr(true);
           setOpenSnackbar(true);
           setSnackbarText('Oops! Could not add note. Please try again.')
-          console.log(error)
     });
   }
 

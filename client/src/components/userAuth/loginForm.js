@@ -28,11 +28,9 @@ const LoginForm = () => {
                 auth.login(token, () => {
                     history.push("/dashboard");
                 });
-                console.log(response.data)
             })
             .catch(error => {
                 setErr(error.response.data);
-                console.log(error)
             });
     }
 

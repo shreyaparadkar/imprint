@@ -54,7 +54,6 @@ const ViewClient = () => {
     setData([]);
     axios.post('/api/viewclient', info,{headers})
       .then(response => {
-        console.log(response.data);
         setData(response.data);
         setStatus(true);
         setRequestStatus(false);

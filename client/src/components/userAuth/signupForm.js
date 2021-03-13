@@ -32,7 +32,6 @@ const SignupForm = () => {
             })
             .catch(error => {
                 setErr(error.response.data);
-                console.log(error.response)
             });
     }
 
