@@ -11,7 +11,7 @@
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-rte": "git+https://github.com/sstur/react-rte.git#8c81622706a5f8856d39497bf33f92a97e9664fc",
-    "react-scripts": "^4.0.3"
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
