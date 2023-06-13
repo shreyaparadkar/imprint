@@ -35,11 +35,11 @@ app.use("/api/updatenote", updateNoteRoute);
 app.use("/api/deletenote", deleteNoteRoute);
 
 // Serve static assets if in production
-if (process.env.NODE_ENV === 'production') {
+// if (process.env.NODE_ENV === 'production') {
   // Set static folder
   app.use(express.static('client/build'));
   app.use('*', express.static(path.join(__dirname, "client", "build")))
-}
+// }
 
 app.listen(port, () => {
   console.log(`Server is running on 5000`);
