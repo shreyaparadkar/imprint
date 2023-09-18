@@ -4,7 +4,7 @@ Imprint is an online logbook for freelancers, to keep track of client details an
 
 ## Demo
 
-Check out the demo [here](https://imprint-production.up.railway.app/)
+Check out the demo [here](https://imprint-oq6v.onrender.com/)
 
 ## Installation
 
